@@ -7,8 +7,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/GWAlbert-Aike # git仓库的地址
-          search-paths: configcenter/springcloud-config  # git仓库地址下的相对地址，可以配置多个，用,分割。
+          uri: https://github.com/GWAlbert-Aike/configcenter # git仓库的地址
+          search-paths: springcloud-config  # git仓库地址下的相对地址，可以配置多个，用,分割。
           username: 2495774179@qq.com #Git仓库用户名
           password: 2495774179g #Git仓库密码
   #profiles:
