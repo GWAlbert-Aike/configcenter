@@ -15,4 +15,10 @@
 #Spring Cloud Config 的刷新
 #refresh  需手动刷新
 
-#webhook  自动刷新  配置仓库的webhook
+#webhook  检测自动刷新客户端  配置仓库的webhook
+
+
+使用webhook,当客户端集群时，每次修改仓库中的配置,就会刷新所有的客户机
+
+#Spring Cloud Bus  消息总线
+
